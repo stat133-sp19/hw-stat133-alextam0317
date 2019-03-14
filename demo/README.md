@@ -1,6 +1,6 @@
 # Demo
 
-This is just a demo folder for testing purpose. testing testing 
+This is just a demo folder with some dummy content. 
 
 A quote:
 
