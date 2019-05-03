@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1556919388334.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3624111535",
+    "id" : "48466551",
+    "lastKnownWriteTime" : 1556919506,
+    "last_content_update" : -2147483648,
+    "path" : "C:/Users/Alex/Desktop/binomial/vignettes/vignettes.Rmd",
+    "project_path" : "vignettes/vignettes.Rmd",
+    "properties" : {
+        "cursorPosition" : "96,3",
+        "scrollLine" : "94"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

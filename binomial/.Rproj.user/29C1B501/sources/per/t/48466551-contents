@@ -1,0 +1,124 @@
+---
+title: "binomial"
+author: "Alex Tam"
+date: "3 May 2019"
+output: html_document
+vignette: >
+  %\VignetteIndexEntry{binomial}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, echo = FALSE, message = FALSE}
+knitr::opts_chunk$set(collapse = T, comment = "#>")
+library(binomial)
+```
+
+## Binomial
+
+The package `"binomial_choose"` is a minimal implementation for simulating pick something with for given times and the number of success and the probability of success, and to visualize the relative frequencies in such a series of picking.
+
+
+## Creating the times you want to pick
+
+This is the number of success in n trials
+
+```
+bin_choose()
+```
+where n = trials, k = number of success
+
+
+##next is to find the probability given the number of success, trials and the probability of success
+
+```
+bin_probability()
+```
+the function takes success, trials and prob
+
+
+##the 'bin_distribution()' gives you a nice binomial distribution table
+
+```
+bin_distribution()
+```
+
+
+## Plot of probability
+
+You can use the function `plot.bindis()` to create a graohic with the probability of a series of trials:
+
+```{r, fig.show='hold'}
+plot(bin_distribution(5,0.3))
+```
+
+
+##the 'bin_cumulative()' gives you a nice binomial distribution table with the cumulative probability column
+
+```
+bin_cumulative()
+```
+
+## Plot of cumulativeprobability
+
+You can use the function `plot.bincum()` to create a graohic with the cumulative probability of a series of trials:
+
+```{r, fig.show='hold'}
+plot(bin_cumulative(5,0.3))
+```
+
+
+##printing a list with the number of trials and the probability
+
+```{r}
+bin1 <- bin_variable(trials = 10, p = 0.3)
+bin1
+```
+
+##printing a summary list of the variable (including the number of trials, prob of success, mean, variance, mode, skewness and kurtosis)
+
+```{r}
+bin1 <- bin_variable(trials = 10, p = 0.3)
+binsum1 <- summary(bin1)
+binsum1
+```
+
+
+##mean of the binomial distribution
+
+```
+bin_mean()
+```
+takes the parameter trials and prob
+
+
+##variance of the binomial distribution
+
+```
+bin_variance()
+```
+takes the parameter trials and prob
+
+
+##mode of the binomial distribution
+
+```
+bin_mode()
+```
+takes the parameter trials and prob
+
+
+##skewness of the binomial distribution
+
+```
+bin_skewness()
+```
+takes the parameter trials and prob
+
+
+##kurtosis of the binomial distribution
+
+```
+bin_kurtosis()
+```
+takes the parameter trials and prob

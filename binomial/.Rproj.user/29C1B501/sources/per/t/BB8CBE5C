@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1556918422455.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4230171438",
+    "id" : "BB8CBE5C",
+    "lastKnownWriteTime" : 1556919317,
+    "last_content_update" : -2147483648,
+    "path" : "C:/Users/Alex/Desktop/binomial/R/codes.R",
+    "project_path" : "R/codes.R",
+    "properties" : {
+        "cursorPosition" : "298,10",
+        "scrollLine" : "293"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
