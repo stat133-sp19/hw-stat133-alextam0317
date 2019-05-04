@@ -16,7 +16,7 @@ library(binomial)
 
 ## Binomial
 
-The package `"binomial_choose"` is a minimal implementation for simulating pick something with for given times and the number of success and the probability of success, and to visualize the relative frequencies in such a series of picking.
+The package `"binomial"` is a minimal implementation for simulating pick something with for given times and the number of success and the probability of success, and to visualize the relative frequencies in such a series of picking.
 
 
 ## Creating the times you want to pick
@@ -46,7 +46,7 @@ bin_distribution()
 
 ## Plot of probability
 
-You can use the function `plot.bindis()` to create a graohic with the probability of a series of trials:
+You can use the function `plot()` to create a graohic with the probability of a series of trials:
 
 ```{r, fig.show='hold'}
 plot(bin_distribution(5,0.3))
@@ -59,23 +59,23 @@ plot(bin_distribution(5,0.3))
 bin_cumulative()
 ```
 
-## Plot of cumulativeprobability
+## Plot of cumulative probability
 
-You can use the function `plot.bincum()` to create a graohic with the cumulative probability of a series of trials:
+You can use the function `plot()` to create a graohic with the cumulative probability of a series of trials:
 
 ```{r, fig.show='hold'}
 plot(bin_cumulative(5,0.3))
 ```
 
 
-##printing a list with the number of trials and the probability
+##printing a list with the number of trials and the probability of the class binvar
 
 ```{r}
 bin1 <- bin_variable(trials = 10, p = 0.3)
 bin1
 ```
 
-##printing a summary list of the variable (including the number of trials, prob of success, mean, variance, mode, skewness and kurtosis)
+##printing a summary list of the variable (including the number of trials, prob of success, mean, variance, mode, skewness and kurtosis) of the class binvar
 
 ```{r}
 bin1 <- bin_variable(trials = 10, p = 0.3)

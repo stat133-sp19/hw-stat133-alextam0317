@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "4230171438",
+    "hash" : "642988752",
     "id" : "BB8CBE5C",
-    "lastKnownWriteTime" : 1556919317,
+    "lastKnownWriteTime" : 1556931419,
     "last_content_update" : -2147483648,
-    "path" : "C:/Users/Alex/Desktop/binomial/R/codes.R",
+    "path" : "C:/Users/Alex/Desktop/hw-stat133/binomial/R/codes.R",
     "project_path" : "R/codes.R",
     "properties" : {
-        "cursorPosition" : "298,10",
-        "scrollLine" : "293"
+        "cursorPosition" : "306,0",
+        "scrollLine" : "289"
     },
     "relative_order" : 3,
     "source_on_save" : false,

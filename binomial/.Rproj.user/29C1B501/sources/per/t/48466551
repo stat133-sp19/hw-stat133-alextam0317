@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "3624111535",
+    "hash" : "3632274966",
     "id" : "48466551",
-    "lastKnownWriteTime" : 1556919506,
+    "lastKnownWriteTime" : 1556931362,
     "last_content_update" : -2147483648,
-    "path" : "C:/Users/Alex/Desktop/binomial/vignettes/vignettes.Rmd",
+    "path" : "C:/Users/Alex/Desktop/hw-stat133/binomial/vignettes/vignettes.Rmd",
     "project_path" : "vignettes/vignettes.Rmd",
     "properties" : {
-        "cursorPosition" : "96,3",
-        "scrollLine" : "94"
+        "cursorPosition" : "18,0",
+        "scrollLine" : "8"
     },
     "relative_order" : 5,
     "source_on_save" : false,

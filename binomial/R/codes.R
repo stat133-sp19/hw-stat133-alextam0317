@@ -252,7 +252,7 @@ bin_mean <- function(trials,prob){
 #bin_variance
 #' @title variance of the binomial distribution
 #' @description calculate the variance
-#' @param trials, prob, bbb
+#' @param trials and prob are the parameters
 #' @return variance
 #' @export
 #' @examples bin_variance(10, 0.3)
@@ -304,4 +304,3 @@ bin_kurtosis <- function(trials,prob){
   kurtosis <- aux_kurtosis(trials,prob)
   return(kurtosis)
 }
-

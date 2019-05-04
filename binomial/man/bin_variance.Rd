@@ -7,7 +7,7 @@
 bin_variance(trials, prob)
 }
 \arguments{
-\item{trials, }{prob, bbb}
+\item{trials}{and prob are the parameters}
 }
 \value{
 variance
