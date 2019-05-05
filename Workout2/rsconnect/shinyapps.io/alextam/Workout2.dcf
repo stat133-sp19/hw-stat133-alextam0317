@@ -1,0 +1,12 @@
+name: Workout2
+title: Workout2
+username:
+account: alextam
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 867482
+bundleId: 2014215
+url: https://alextam.shinyapps.io/Workout2/
+when: 1555379521.71765
+asMultiple: FALSE
+asStatic: FALSE
